@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "iProtect",
+  "description": "Protect your eyes AND your heart with this simple but very helpful extension.",
+  "version": "2.0",
+
+  "permissions": [
+  	"contentSettings",
+    "contextMenus",
+    "tabs",
+    "debugger",
+    "browsingData"
+  ],
+  "browser_action": {
+
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Protect yourself. Now. 2.0.. dont give up-..."
+  },
+  "incognito": "spanning",
+  "options_page": "options.html"
+}

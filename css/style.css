@@ -1,0 +1,72 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 95%;
+  min-width: 250px;
+  background-color: #e6e6fa;
+
+}
+
+header {
+  height: 45px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #7ac5cd;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#wrapper {
+  padding: 0px 20px;
+}
+
+#status {
+  /* avoid an excessively wide status text */
+ /**
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 400px;
+  */
+}
+
+
+#logo {
+  display: block;
+  position: relative;
+  top: 15px;
+  margin:0px auto;
+}
+
+#wrapper {
+    padding-top: 15px;
+    padding-right: 60px;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+.button-block {
+    padding-top: 15px;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    border: 3px solid #fff;
+
+}
+
+.button-block:hover, .button-never:hover {
+    background-color: #fff;
+}
+
+.button-never {
+    margin-top: 10px;
+    padding-top: 15px;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    border: 3px solid #fff;
+
+}
